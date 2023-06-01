@@ -21,10 +21,6 @@ services:
     depends_on:
       - postgres
       - backend
-  app:
-    image: myapp
-    ports:
-      - 80:80
 
 volumes:
   postgres-gces:
